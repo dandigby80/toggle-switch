@@ -1,0 +1,84 @@
+/*********************************************
+-Toggle Switch Styles - use on your own
+projects if you want but give credit where
+credit is due - 
+twitter - @dandigby80
+github - dandigby80
+cheers -
+**********************************************/
+
+/**** _copyright dandigby 2021_ ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #1e2124, #424549 )
+}
+
+.container-light{
+  background: linear-gradient(to bottom right, #eed9c4, #faf0e6 )
+}
+
+.toggle-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 50px;
+  width: 100px;
+  background: #333;
+  border: 1px solid #fff;
+  border-radius: 3rem;
+  box-shadow: 0.5px 0.5px 4px #333;
+}
+
+.on{
+  background: #fff;
+  color: yellow;
+}
+
+.toggle{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.toggle-on{
+  position: absolute;
+  background: lightskyblue;
+  border: none;
+  top: -1px;
+  left: 50px;
+}
+
+.icon-off{
+  display: none;
+}
+
+.icon-on{
+  color: #fff;
+}
+
+i{
+  margin: 5px 8px;
+  color: #333;;
+  font-size: 0.5rem;
+}
